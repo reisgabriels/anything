@@ -1,0 +1,11 @@
+dash
+pandas
+gunicorn
+dash
+dash_bootstrap_components
+numpy
+plotly
+graph_objects
+dash.dependencies
+dash_bootstrap_templates
+load_figure_template
