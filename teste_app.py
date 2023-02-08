@@ -18,7 +18,7 @@ df = pd.read_csv('Projeto 1 - Supermarket Sales/supermarket_sales.csv',parse_dat
 #pd.read_csv('supermarket_sales.csv',parse_dates=['Date'])
 ##app = dash.Dash()
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.MINTY])
-
+server=app.server
 
 ##app.layout = []
 
