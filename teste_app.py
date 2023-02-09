@@ -29,7 +29,7 @@ app.layout = html.Div([
             dbc.Row([
                 dbc.Col([
                     dbc.Card([
-                        html.H3('ASIMOV'),
+                        html.H3('GABRIEL REIS'),
                         html.Hr(),
                         html.H6('Cidades:'),
                         dcc.Checklist(id = 'cities', options=list(set(df['City'])),value=list(set(df['City'])), inputStyle={'margin-right':'5px','margin-left':'20px'}),
