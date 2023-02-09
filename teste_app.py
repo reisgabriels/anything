@@ -14,9 +14,10 @@ load_figure_template('minty')
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 ##Dados
 
-df = pd.read_csv('Projeto 1 - Supermarket Sales/supermarket_sales.csv',parse_dates=['Date'])
+#df = pd.read_csv('Projeto 1 - Supermarket Sales/supermarket_sales.csv',parse_dates=['Date'])
 #pd.read_csv('supermarket_sales.csv',parse_dates=['Date'])
 ##app = dash.Dash()
+df = pd.read_html('https://docs.google.com/spreadsheets/d/e/2PACX-1vQjodPr77nq063MmysWaevRMKnrsl0QngpcneGAVLQd1G4iFvDZwi3gupOdTofm6Q/pubhtml', header=1)[0]
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.MINTY])
 server=app.server
 
